@@ -10,6 +10,10 @@ team project test
     - 2 week : 게시판
     - 3 week : 뉴스
 
+[code1](#code1)
+[code2](#code2)
+[code3](#code3)
+[code4](#code4)
 
 ## code
 ```jsp
@@ -28,3 +32,139 @@ team project test
 {"added":${added}, "bnum":${added}}
 ```
 [github마크다운으로 색상 설정하기](https://gist.github.com/luigiMinardi/4574708d404cdf4fe0da7ac6fe2314db)
+
+
+<p>
+<a name="code1">code1</a>
+```jsp
+<%@ page language="java" contentType="application/json; charset=UTF-8"
+    pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
+
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+
+<jsp:useBean id="dao" class="com.mbcac.board.BoardDAO"/>
+<jsp:useBean id="board" class="com.mbcac.board.BoardVO">
+	<jsp:setProperty name="board" property="*"/>
+</jsp:useBean>
+<c:set var="added" value="${dao.addBoard(board)}"/>
+
+{"added":${added}, "bnum":${added}}
+```
+
+```jsp
+<%@ page language="java" contentType="application/json; charset=UTF-8"
+    pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
+
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+
+<jsp:useBean id="dao" class="com.mbcac.board.BoardDAO"/>
+<jsp:useBean id="board" class="com.mbcac.board.BoardVO">
+	<jsp:setProperty name="board" property="*"/>
+</jsp:useBean>
+<c:set var="added" value="${dao.addBoard(board)}"/>
+
+{"added":${added}, "bnum":${added}}
+```
+
+```jsp
+<%@ page language="java" contentType="application/json; charset=UTF-8"
+    pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
+
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+
+<jsp:useBean id="dao" class="com.mbcac.board.BoardDAO"/>
+<jsp:useBean id="board" class="com.mbcac.board.BoardVO">
+	<jsp:setProperty name="board" property="*"/>
+</jsp:useBean>
+<c:set var="added" value="${dao.addBoard(board)}"/>
+
+{"added":${added}, "bnum":${added}}
+```
+
+<p>
+<a name="code2">code2</a>
+```jsp
+<%@ page language="java" contentType="application/json; charset=UTF-8"
+    pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
+
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+
+<jsp:useBean id="dao" class="com.mbcac.board.BoardDAO"/>
+<jsp:useBean id="board" class="com.mbcac.board.BoardVO">
+	<jsp:setProperty name="board" property="*"/>
+</jsp:useBean>
+<c:set var="added" value="${dao.addBoard(board)}"/>
+
+{"added":${added}, "bnum":${added}}
+```
+
+```jsp
+<%@ page language="java" contentType="application/json; charset=UTF-8"
+    pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
+
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+
+<jsp:useBean id="dao" class="com.mbcac.board.BoardDAO"/>
+<jsp:useBean id="board" class="com.mbcac.board.BoardVO">
+	<jsp:setProperty name="board" property="*"/>
+</jsp:useBean>
+<c:set var="added" value="${dao.addBoard(board)}"/>
+
+{"added":${added}, "bnum":${added}}
+```
+<p>
+<a name="code3">code3</a>
+```jsp
+<%@ page language="java" contentType="application/json; charset=UTF-8"
+    pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
+
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+
+<jsp:useBean id="dao" class="com.mbcac.board.BoardDAO"/>
+<jsp:useBean id="board" class="com.mbcac.board.BoardVO">
+	<jsp:setProperty name="board" property="*"/>
+</jsp:useBean>
+<c:set var="added" value="${dao.addBoard(board)}"/>
+
+{"added":${added}, "bnum":${added}}
+```
+
+```jsp
+<%@ page language="java" contentType="application/json; charset=UTF-8"
+    pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
+
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+
+<jsp:useBean id="dao" class="com.mbcac.board.BoardDAO"/>
+<jsp:useBean id="board" class="com.mbcac.board.BoardVO">
+	<jsp:setProperty name="board" property="*"/>
+</jsp:useBean>
+<c:set var="added" value="${dao.addBoard(board)}"/>
+
+{"added":${added}, "bnum":${added}}
+```
+<p>
+<a name="code4">code4</a> [go to top](#top)
+```jsp
+<%@ page language="java" contentType="application/json; charset=UTF-8"
+    pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
+
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+
+<jsp:useBean id="dao" class="com.mbcac.board.BoardDAO"/>
+<jsp:useBean id="board" class="com.mbcac.board.BoardVO">
+	<jsp:setProperty name="board" property="*"/>
+</jsp:useBean>
+<c:set var="added" value="${dao.addBoard(board)}"/>
+
+{"added":${added}, "bnum":${added}}
+```
+
