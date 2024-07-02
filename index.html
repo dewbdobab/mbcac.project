@@ -1,1 +1,76 @@
-#Index
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login Form</title>
+<style type="text/css">
+
+	h3 {width:fit-content; margin:1em auto; }
+	main { width:fit-content; margin:1em auto;  border:1px solid black; border-collapse:collapse;
+			 border-spacing:0; padding:0.5em; }
+	#btn { width:fit-content;  margin:0.5em auto; }
+	label { display:inline-block; width:3em; padding:0.2em; text-align:center; }
+	
+</style>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+
+  function login() {
+    var serData = $('#loginForm').serialize();
+    console.log('Form Data 직렬화:'+serData);
+    $.ajax({
+    	url:'ssc',
+    	method:'post',
+    	cache:false,
+    	data:serData,
+    	dataType:'json',
+    	success:function(res){
+    		alert(res.ok ? '로그인 성공' : '로그인 실패');
+    		if(res.ok){
+    			location.href='ssc?cmd=showIndex';
+    		}
+    	},
+    	error:function(xhr,status,err){
+    		alert('에러:'+err);
+    	}
+    });
+  }
+  <%
+  	Object objCause = session.getAttribute("cause");
+  	String cause = "";
+  	if(objCause!=null)
+  		cause = (String) objCause;
+  		session.removeAttribute("cause");
+  %>
+  
+  	var cause = "<%=cause%>";
+  	if(cause!='')
+  		alert(cause);
+  
+</script>
+
+
+</head>
+<body>
+<h3>로그인</h3>
+<main>
+	<form id='loginForm' method='post' action='ssc'>
+		<input type='hidden' name='cmd' value='login'>
+		<div><label for="id">아이디</label>
+			<input type="text" name="id" id="id" value="smith">
+		</div>
+		<div><label for="pwd">암호</label>
+			<input type="password" name="pwd" id="pwd" value="pwsmith">
+		</div>
+		<div id='btn'>
+			<button type="button" onclick="login()">로그인</button>
+			<button type="reset">취소</button>
+		</div>
+	</form>
+</main>
+</body>
+</html>
