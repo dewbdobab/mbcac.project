@@ -27,4 +27,4 @@ team project test
 
 {"added":${added}, "bnum":${added}}
 ```
-[github마크다운으로 색상 설정하기]([http://www.naver.com/](https://gist.github.com/luigiMinardi/4574708d404cdf4fe0da7ac6fe2314db))
+[github마크다운으로 색상 설정하기]([http://www.naver.com/](https://gist.github.com/luigiMinardi/4574708d404cdf4fe0da7ac6fe2314db)
