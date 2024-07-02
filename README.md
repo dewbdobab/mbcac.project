@@ -11,7 +11,8 @@ team project test
     - 3 week : 뉴스
 
 #코드를 참고하세요
----jsp
+
+'''jsp
 <%@ page language="java" contentType="application/json; charset=UTF-8"
     pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
 
