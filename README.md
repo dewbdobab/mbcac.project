@@ -26,4 +26,5 @@ team project test
 <c:set var="added" value="${dao.addBoard(board)}"/>
 
 {"added":${added}, "bnum":${added}}
-
+```
+http://www.naver.com/
