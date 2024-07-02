@@ -10,7 +10,7 @@ team project test
     - 2 week : 게시판
     - 3 week : 뉴스
 
-#코드 참고
+#코드참고
 <%@ page language="java" contentType="application/json; charset=UTF-8"
     pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
 
