@@ -9,7 +9,7 @@ team project test
     - 1 week : 로그인
     - 2 week : 게시판
     - 3 week : 뉴스
-
+<a name="top"></a>
 [code1](#code1)
 [code2](#code2)
 [code3](#code3)
@@ -36,6 +36,7 @@ team project test
 
 <p>
 <a name="code1">code1</a>
+	<p>
 ```jsp
 <%@ page language="java" contentType="application/json; charset=UTF-8"
     pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
@@ -51,7 +52,7 @@ team project test
 
 {"added":${added}, "bnum":${added}}
 ```
-
+<p>
 ```jsp
 <%@ page language="java" contentType="application/json; charset=UTF-8"
     pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
@@ -67,7 +68,7 @@ team project test
 
 {"added":${added}, "bnum":${added}}
 ```
-
+<p>
 ```jsp
 <%@ page language="java" contentType="application/json; charset=UTF-8"
     pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
@@ -86,22 +87,7 @@ team project test
 
 <p>
 <a name="code2">code2</a>
-```jsp
-<%@ page language="java" contentType="application/json; charset=UTF-8"
-    pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
-
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-
-<jsp:useBean id="dao" class="com.mbcac.board.BoardDAO"/>
-<jsp:useBean id="board" class="com.mbcac.board.BoardVO">
-	<jsp:setProperty name="board" property="*"/>
-</jsp:useBean>
-<c:set var="added" value="${dao.addBoard(board)}"/>
-
-{"added":${added}, "bnum":${added}}
-```
-
+<p>
 ```jsp
 <%@ page language="java" contentType="application/json; charset=UTF-8"
     pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
@@ -118,7 +104,6 @@ team project test
 {"added":${added}, "bnum":${added}}
 ```
 <p>
-<a name="code3">code3</a>
 ```jsp
 <%@ page language="java" contentType="application/json; charset=UTF-8"
     pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
@@ -135,6 +120,25 @@ team project test
 {"added":${added}, "bnum":${added}}
 ```
 
+<p>
+<a name="code3">code3</a>
+<p>
+```jsp
+<%@ page language="java" contentType="application/json; charset=UTF-8"
+    pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
+
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+
+<jsp:useBean id="dao" class="com.mbcac.board.BoardDAO"/>
+<jsp:useBean id="board" class="com.mbcac.board.BoardVO">
+	<jsp:setProperty name="board" property="*"/>
+</jsp:useBean>
+<c:set var="added" value="${dao.addBoard(board)}"/>
+
+{"added":${added}, "bnum":${added}}
+```
+<p>
 ```jsp
 <%@ page language="java" contentType="application/json; charset=UTF-8"
     pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
@@ -152,6 +156,7 @@ team project test
 ```
 <p>
 <a name="code4">code4</a> [go to top](#top)
+<p>
 ```jsp
 <%@ page language="java" contentType="application/json; charset=UTF-8"
     pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
