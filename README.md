@@ -26,5 +26,6 @@ team project test
 <c:set var="added" value="${dao.addBoard(board)}"/>
 
 {"added":${added}, "bnum":${added}}
-
+<html>
 <h4 style='background-color: red;>'>red</style></h4>
+</html>
