@@ -11,24 +11,11 @@ team project test
     - 3 week : 뉴스
 
 
- <a name="top"></a>목차	
- <p>
-	 
-1. [code1](#code1)
-
-<p>
-	
-2. [code2](#code2)
-
-<p>
-	
-3. [code3](#code3)
-
-<p>
-	
-4. [code4](#code4)
-
-<p>
+ <a name="top"></a>목차  
+1. [code1](#code1)  
+2. [code2](#code2)  	
+3. [code3](#code3)  	
+4. [code4](#code4)  
 
 ## code
 ```jsp
