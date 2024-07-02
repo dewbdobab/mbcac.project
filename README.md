@@ -8,7 +8,7 @@ team project test
   + 3 month : 구현
     - 1 week : 로그인
     - 2 week : 게시판
-    - 3 week : 뉴스
+    - 3 week : $\color{#ffcccc}{\textsf{뉴스}}$
 
 
 ## code
