@@ -5,7 +5,7 @@ team project test
 * 기간 : 3개월
   + 1 month : 분석
   + 2 month : 설계
-  + 3 month : 구현
+  + 3 month : <style color:red>구현</styel>
     - 1 week : 로그인
     - 2 week : 게시판
     - 3 week : 뉴스
