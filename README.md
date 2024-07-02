@@ -17,19 +17,19 @@ team project test
  목차	
  <p>
 	 
-[code1](#code1)
+1. [code1](#code1)
 
 <p>
 	
-[code2](#code2)
+2. [code2](#code2)
 
 <p>
 	
-[code3](#code3)
+3. [code3](#code3)
 
 <p>
 	
-[code4](#code4)
+4. [code4](#code4)
 
 <p>
 
