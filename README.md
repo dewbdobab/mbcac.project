@@ -9,12 +9,9 @@ team project test
     - 1 week : 로그인
     - 2 week : 게시판
     - 3 week : 뉴스
-      
-<p>
-<a name="top"></a>
-<p>
 
- 목차	
+
+ <a name="top"></a>목차	
  <p>
 	 
 1. [code1](#code1)
